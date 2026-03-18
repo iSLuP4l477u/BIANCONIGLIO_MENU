@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bianconiglio Wine Bar & Local Food - Benvenuto">
+  <title>Bianconiglio Wine Bar & Local Food</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <svg class="svgFilter" aria-hidden="true">
+    <filter id="glass-distortion">
+      <feTurbulence type="turbulence" baseFrequency="0.008" numOctaves="2" result="noise"></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="65"></feDisplacementMap>
+    </filter>
+  </svg>
+
+  <div id="preloader" aria-label="Caricamento sito">
+    <div class="preloaderCard">
+      <img src="logo.svg" alt="Logo Bianconiglio" class="preloaderLogo">
+      <div class="preloaderLine"></div>
+    </div>
+  </div>
+
+  <div id="app" class="appHidden">
+
+    <header class="siteHeader" id="siteHeader">
+      <div class="container navBar glassCard glassInteractive">
+        <a href="index.html" class="brand">
+          <div class="brandLogo">
+            <img src="logo.svg" alt="Bianconiglio Wine Bar & Local Food">
+          </div>
+          <div class="brandText">
+            <strong>Bianconiglio Wine Bar & Local Food</strong>
+            <span>Arzachena</span>
+          </div>
+        </a>
+
+        <nav class="navLinks">
+          <a href="index.html" class="navLink">Home</a>
+          <a href="menu.html" class="navLink">Menù</a>
+          <a href="#contatti" class="navLink">Contatti</a>
+          <a href="https://www.instagram.com/bianconigliowinebar2.0/" target="_blank" class="navLink instagramLink">
+            <i class="fa-brands fa-instagram"></i> Instagram
+          </a>
+        </nav>
+
+        <button class="menuToggle" id="menuToggle" aria-label="Apri menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="mobileMenu glassCard" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menù</a>
+        <a href="#contatti">Contatti</a>
+        <a href="https://www.instagram.com/bianconigliowinebar2.0/" target="_blank">Instagram</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container" id="top">
+        <div class="heroGrid">
+          <div class="heroMain glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+
+            <div class="glassContent heroContent">
+              <p class="eyebrow">Wine Bar • Local Food • Arzachena</p>
+              <h1>Benvenuto nel mondo Bianconiglio.</h1>
+              <p class="heroText">
+                Un luogo dove eleganza, atmosfera e gusto si incontrano.
+                Scopri il nostro menù digitale e seguici per restare aggiornato
+                su novità, serate e proposte speciali.
+              </p>
+
+              <div class="heroActions">
+                <a href="menu.html" class="btn btnPrimary">
+                  <i class="fa-solid fa-book-open"></i>
+                  Apri il menù
+                </a>
+
+                <a href="https://www.instagram.com/bianconigliowinebar2.0/" target="_blank" class="btn btnGlass">
+                  <i class="fa-brands fa-instagram"></i>
+                  Instagram
+                </a>
+              </div>
+
+              <div class="heroBadges">
+                <span>Wine Selection</span>
+                <span>Cocktail</span>
+                <span>Local Food</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="heroSide glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+
+            <div class="glassContent">
+              <div class="sideBlock">
+                <h3>Esperienza digitale</h3>
+                <p>Accedi rapidamente al nostro menù digitale da smartphone.</p>
+              </div>
+
+              <div class="fakeQr"></div>
+
+              <div class="sideButtons">
+                <a href="menu.html" class="btn btnGlass">Vai al menù</a>
+                <a href="#contatti" class="btn btnGlass">Contatti</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contactSection container" id="contatti">
+        <div class="sectionHeading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Contatti</h2>
+          <p>Passa a trovarci o contattaci direttamente.</p>
+        </div>
+
+        <div class="contactGrid">
+          <article class="glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+
+            <div class="glassContent contactCard">
+              <h3><i class="fa-solid fa-location-dot"></i> Dove siamo</h3>
+              <p>Arzachena (SS)</p>
+              <a class="btn btnGlass" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Arzachena%20Bianconiglio%20Wine%20Bar">
+                Apri su Maps
+              </a>
+            </div>
+          </article>
+
+          <article class="glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+
+            <div class="glassContent contactCard">
+              <h3><i class="fa-regular fa-clock"></i> Orari</h3>
+              <p>Lun – Dom</p>
+              <p>18:00 – 02:00</p>
+            </div>
+          </article>
+
+          <article class="glassCard glassInteractive reveal">
+            <div class="glassFilter"></div>
+            <div class="glassOverlay"></div>
+            <div class="glassSpecular"></div>
+
+            <div class="glassContent contactCard">
+              <h3><i class="fa-brands fa-instagram"></i> Instagram</h3>
+              <p>@bianconigliowinebar2.0</p>
+              <a class="btn btnGlass" target="_blank" href="https://www.instagram.com/bianconigliowinebar2.0/">
+                Apri profilo
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="siteFooter container">
+      <div class="footerCard glassCard reveal">
+        <div class="glassFilter"></div>
+        <div class="glassOverlay"></div>
+        <div class="glassSpecular"></div>
+
+        <div class="glassContent footerContent">
+          <p>© <span id="year"></span> Bianconiglio Wine Bar & Local Food</p>
+          <a href="menu.html" class="btn btnGlass">Apri il menù</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
