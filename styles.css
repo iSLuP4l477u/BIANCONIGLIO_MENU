@@ -817,4 +817,37 @@ a{
   color:rgba(255,255,255,.92);
 }
 
+.menuSectionBlock{
+  margin-bottom:34px;
+}
 
+.menuSectionTitle{
+  margin-bottom:16px;
+}
+
+.menuSectionTitle h3{
+  margin:0;
+  font-size:34px;
+  line-height:1;
+}
+
+.subCategoryGrid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+  gap:16px;
+}
+
+.subCategoryBox{
+  overflow:hidden;
+}
+
+.subCategoryBox .glassContent{
+  padding:20px;
+}
+
+.subCategoryBox h4{
+  margin:0 0 14px;
+  font-size:17px;
+  font-weight:700;
+  color:rgba(255,255,255,.92);
+}
