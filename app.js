@@ -112,3 +112,13 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+// CATEGORY BUTTON ACTIVE STATE
+const categoryButtons = document.querySelectorAll(".categoryBtn");
+
+categoryButtons.forEach(btn => {
+  btn.addEventListener("click", function () {
+    categoryButtons.forEach(b => b.classList.remove("active"));
+    this.classList.add("active");
+  });
+});
+
